@@ -1,0 +1,84 @@
+---
+title: "Likert Bibliographie"
+author: "jcb"
+date: "5 juillet 2015"
+output: html_document
+---
+
+[Levels of measurement](https://en.wikipedia.org/wiki/Level_of_measurement#Ratio_measurement) explique les différentes échelles. Pas d'équivalent en français.
+
+[1] Ordinal Methodology in the Analysis of Likert Scales
+--------------------------------------------------------
+@article{
+year={2007},
+issn={0033-5177},
+journal={Quality & Quantity},
+volume={41},
+number={5},
+doi={10.1007/s11135-007-9089-z},
+title={Ordinal Methodology in the Analysis of Likert Scales},
+url={http://dx.doi.org/10.1007/s11135-007-9089-z},
+publisher={Springer Netherlands},
+keywords={attitude measuring; likert scales; ordinal scales; cardinal scales; SERVQUAL; statistical analysis},
+author={Göb, Rainer and McCollin, Christopher and Ramalhoto, MariaFernanda},
+pages={601-626},
+language={English}
+}
+
+[2] Analyzing Likert Data
+-------------------------
+@article{
+year={2012},
+journal={Journal of Extension},
+}
+Bon article.
+Explique la différence entre _item de Likert_ et _échelle de Likert_ dont les traitements statistiques sontndifférents. Un item de Likert est un objet de type ordinal et son traitement est non paramétrique (médiane). Une échelle de Likert est un objet composite formé par 4 items de Likert ou plus où on s'intéresse au résultat global de la somme ou la moyennes des scores. Dans ce dernier cas l'utilisation de techniques paramétriques (moyenne, variance) est indiquée.
+
+Utilisations:
+
+- mesures des traits de personalité (personality traits) ou de caractères (character traits).
+- L'échelle de Likert est un outil permettant de transformer des données issues de la recherche qualitative en données quantitatives.
+- dans son article original, Rensis Likert (1932), décrit une échelle à 5 niveaux:
+        - strongly approve
+        - approve
+        - undecided (neither agree or disagree)
+        - disapprove
+        - strongly disapprove
+    qui constituent une échelle de mesure attidudinale (attidudinal measurement scale).
+- a partir de ce travail princeps d'autres échelles ont été utilisées allant de 4 à plus de 10 points. En pratique les échelles à 5 et 7 points sont les plus utilisées.
+- on peut distinguer des échelles impaires avec un point neutre et des échelles paires obligeant à faire un choix. Cet aspect n'est pas abordé dans l'article.
+
+[3] How to use the Likert scale in statistical analysis
+--------------------------------------------------------
+
+Une échelle de Likert est la somme de plusieurs items de Likert.
+Les items de Lijert sont souvent accompagnés par un analogue visuel (généralement une ligne horizontale où le sujet indique son choix en cerclant une marque). Les items sont souvent appelés échelle ce qui est source de confusion. Le terme d'échelle doit être réservée au résultat de la somme d'items de Likert.
+
+Le nombre de choix ordonnés est le plus souvent de 5 bien que des échelles  à 7 et 9 niveaux soient fréquemment citées. Il semble qu'un nombre élevé de niveaux perturbent les sujets. Une étude (ref. 3) montre qu'une échelle à 5 ou 7 niveaux donne des scores moyens plus élevés qu'une échelle à 10 points.
+
+Les échelles de Likert peuvent présenter un certain nombre de biais:
+
+- biais de la tendance centrale (central tendecy bias). Le répondant évite les choix extrèmes et favorise la réponse neutre.
+- biais d'aquiescement (acquiescence bias). Contraire du précédent.
+- biais de désirabilité sociale (social desirability bias). La réponse n'est pas objective mais dominée par le souci de valoriser l'entreprise.
+
+Une fois le questionnaire complété,chaque item peut être analysé séparément ou sommés pour former une échelle (summative scale).
+
+Un item de Likert peut appartnir à 2 catégories:
+
+- donnée ordonnée de type intervalle (interval data): il existe une relation mathématique entre 2 niveaux qui sont équidistants (exemple le thermomètre)
+- donnée ordonnée de type catégorielle (ordinal data): une catégorie est supérieure à la précédente mais on ne sait pas de combien. C'est la cas de la pluspart des items de Likert  bien que la numérotation des niveaux induise en erreur, évoquant implicitement la notion d'intervalle et la formulation des réponses possibles implique une symétrie des niveaux de réponse par rapport à l'item central. Méthodes d'analyse: diagramme en barre (bar charts), tendance centrale = mode, médiane, dispersion = intervalle inter quartile, tests non paramétriques (chi2, Mann-Whitney, Wilcoxon, Kruskal-Wallis).
+
+Les réponses de plusieurs items de Likert peuvent être sommées, sous réserve que toutes les questions utilisent la même échelle de Likert et que l'échelle est assimimable à une échelle de type intervalle. Si l'échelle comporte 5 item, des tests paramétriques sont utilisables (référence ?).
+
+Un item de likert peut être transformé en variable dichotomique en combinant toutes les nuances de agree et diagree en 2 catégories (accept and reject). Dans ce cas on peut utiliser Khi2, Cochran Q, McNemar.
+
+Des méthodes de consenssus (consensus based assessment) peuvent ^rtre utilisées pour créer un standard objectif pour une échelle de Likert dans des domaines où il n'existe pas de standards (delphi ?).
+
+On peut comparer les scores de 3 groupes par une analyse de variance non paramétrique (Kruskal)
+
+[4] Optimizing rating scale category effectiveness
+--------------------------------------------------
+Article complexe reposant sur le modèle de Rasch pour la création de questionnaires. A relire.
+
+Nombre de niveaux: Guilford (1954) En terme de théorie psychométrique les échelles détaillées sont toujours plus riches.Lalimite est que un choix trop vaste crée de la confusion chez certains voire de l'rritation.
