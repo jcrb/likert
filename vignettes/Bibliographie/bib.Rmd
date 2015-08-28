@@ -73,7 +73,7 @@ Les réponses de plusieurs items de Likert peuvent être sommées, sous réserve
 
 Un item de likert peut être transformé en variable dichotomique en combinant toutes les nuances de agree et diagree en 2 catégories (accept and reject). Dans ce cas on peut utiliser Khi2, Cochran Q, McNemar.
 
-Des méthodes de consenssus (consensus based assessment) peuvent ^rtre utilisées pour créer un standard objectif pour une échelle de Likert dans des domaines où il n'existe pas de standards (delphi ?).
+Des méthodes de consenssus (consensus based assessment) peuvent être utilisées pour créer un standard objectif pour une échelle de Likert dans des domaines où il n'existe pas de standards (delphi ?).
 
 On peut comparer les scores de 3 groupes par une analyse de variance non paramétrique (Kruskal)
 
@@ -81,4 +81,14 @@ On peut comparer les scores de 3 groupes par une analyse de variance non paramé
 --------------------------------------------------
 Article complexe reposant sur le modèle de Rasch pour la création de questionnaires. A relire.
 
-Nombre de niveaux: Guilford (1954) En terme de théorie psychométrique les échelles détaillées sont toujours plus riches.Lalimite est que un choix trop vaste crée de la confusion chez certains voire de l'rritation.
+Nombre de niveaux: Guilford (1954) En terme de théorie psychométrique les échelles détaillées sont toujours plus riches. Lalimite est que un choix trop vaste crée de la confusion chez certains voire de l'rritation.
+
+[5] Likert scales: how to (ab)use them
+--------------------------------------
+
+- les catégories de réponses des échelles de Likert sont ordonnées par leur rang mais l'intervalle entre les rangs ne peut être présumé égal. L'échelle de Likert est avant tout une échelle ordinale.
+- moyenne et écart-type ne sont pas des mesures appropriées pour les données ordinales.
+
+- assimiler une échelle ordinale à une échelle d'intervalles fait l'objet d'une controverse persistante.
+
+
