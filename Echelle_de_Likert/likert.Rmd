@@ -1,0 +1,36 @@
+---
+title: "L’échelle de Likert"
+author: "jcb"
+date: "28 août 2015"
+output: html_document
+---
+
+Rensis Likert (1903-1981) sociologue américain, a décrit en 1932 une méthode d'évaluation des comportements que l'on désigne sous le vocable d'échelle de Likert.
+
+Une échelle de likert comporte un certain nombre de propositions appelées __item de Likert__. A chaque _item de Likert_ est associé un éventail de réponses possible toujours supérieur à deux. L'item de Likert permet de nuancer une affirmation et permet de sortir du cadre dichotomique (d'accord/pas d'accord).
+
+Item de Likert
+--------------
+
+Un IL se compose d'une proposition à laquelle est associée un éventail de réponse destinées à mesurer le degré d'adhésion à celle-ci. Le choix est limité, fermé et identique pour tous les IL constituants l'échelle. 
+
+### choix des réponses pair ou impair ?
+
+Dans sa description initiale, Likert propose que l'éventail des réponses soit impair, limité à 5 avec une réponse centrale neutre, les autres items étant bivalents et symétriques par rapport à l'élément central. L'échelle impaire laisse le choix de ne pas prendre position (élément neutre). Une échelle paire force à choisir entre l'accord ou le désaccord.
+
+### combien de niveaux de réponses ?
+
+A la suite de Rensis Likert la nrme est une échelle impaire à 5 niveaux. Cependant il n'est pas rare de trouver des échelles à 7 ou 9 niveaux. Intuitivement, on peut se dire qu'en nuançant la réponse on donne d'avantage de choix au répondant. Cependant des études ont montré qu'au delà de 7 niveaux, le choix de a réponse devient aléatoire et le nombre de biais augmente (cf. infra).
+
+### représentation
+
+Les niveaux de réponses sont présentés horizontalement sur la même ligne. Les niveaux de réponses sont marqués par des items verbaux (échelle nominale) qui forment des graduations plus ou moins espacées qui permettent de les ranger dans un certain ordre (échelle ordinale). Cette notion est très importante. Quand un répondant coche la case "pas très d'accord" on comprend qu'il adhère moins à la proposition que celui qui coche "assez d'accord", mais on ne sait pas de combien. De la même manière la distance entre "pas du tout d'accord" et "plutot pas d'accord" n'est pas forcément la même qu'entre "assez d'accord" et "tout à fait d'accord".
+
+Les niveaux de réponse sont généralement marqués par des entiers consécutifs qui renforcent intuitivement la notion de symétrie.
+
+Cette analyse explique la polémique persistante sur les méthodes statistiques les plus adaptées à l'analyse des échelles de Likert. L'utilisation de la moyenne (outre qu'elle n'a pas toujours de sens) faisant implicitement référence à une notion de linéarité entre les niveaux de réponse qui est loin d'être évidente.
+
+Echelle de Likert
+-----------------
+
+Une échelle de Likert est formée par l'association de plusieurs _item de Likert_ à la manière d'une échelle conventionnelle formée de barreau. Cependant l'analogie est trompeuse car la représentation que l'on se fait d'une échelle s'associe avec une équidistance des barreaux. Dans une échelle de Likert rien ne dit que les propositions sont équidistantes.
